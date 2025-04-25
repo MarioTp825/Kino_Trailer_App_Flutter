@@ -142,7 +142,6 @@ class _AndroidBridgeState extends State<AndroidBridge> with RouteAware {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-
             children: [
               SizedBox(
                 height: 35,

@@ -7,7 +7,7 @@ import 'package:my_movie_detail/presenter/ui/style/movie_theme.dart';
 GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 final routerObserver = RouteObserver<PageRoute>();
 
-void main() {
+void main(List<String> args) {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setSystemUIOverlayStyle(
     SystemUiOverlayStyle(statusBarColor: movieTheme.primaryColor),
